@@ -24,7 +24,6 @@ public class StartActivity extends Application {
 
         //initialize sharedPreferences
         sharedPrefs = getSharedPreferences(getString(R.string.shared_preferences_key), MODE_PRIVATE);
-        sharedPrefs.edit().clear().commit();
 
         logOutCurrentUser();
     }
